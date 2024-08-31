@@ -3,201 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chicas Hermosas</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            background-color: #f0f0f0;
-        }
-
-        h1 {
-            text-align: center;
-            margin: 20px 0;
-            font-size: 2em;
-            line-height: 1.2;
-            padding: 0 20px;
-            word-wrap: break-word;
-        }
-
-        .grid-container {
-            display: grid;
-            gap: 10px;
-            padding: 10px;
-            width: 90%;
-            max-width: 1200px;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        }
-
-        .grid-item {
-            position: relative;
-            overflow: hidden;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
-
-        .grid-item img {
-            width: 100%;
-            height: auto;
-            display: block;
-            transition: transform 0.5s ease;
-        }
-
-        .grid-item:hover img {
-            transform: scale(1.1);
-        }
-
-        .grid-item .text-overlay {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: rgba(0, 0, 0, 0.7);
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-            font-size: 1.2em;
-            opacity: 0;
-            transition: opacity 0.5s ease;
-        }
-
-        .grid-item:hover .text-overlay {
-            opacity: 1;
-        }
-
-        .grid-item .text-overlay a {
-            color: #ffcc00;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        .grid-item .text-overlay a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <title>MiCine - Películas Populares</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h3> Belleza y Deseo: Videos Exclusivos y packs de jovencitas al final🔥</h3>
-    <div class="grid-container">
-        <div class="grid-item">
-            <a href="https://nearlynightingalebust.com/g2etat822?key=67e827ce7380f726747375b7d793e4d2">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chat-0-c9ef9.appspot.com/o/Imagen1.png?alt=media&token=04fc80e9-f757-4063-baa4-53b78c4f4975" alt="Descripción de la imagen 1">
-                <div class="text-overlay">Descubre más... 🔥</div>
-            </a>
+    <!-- Encabezado -->
+    <header>
+        <div class="logo">MiCine</div>
+        <div class="menu-icon" onclick="toggleMenu()">
+            &#9776; <!-- Ícono de menú hamburguesa -->
         </div>
-        <div class="grid-item">
-            <a href="https://nearlynightingalebust.com/g2etat822?key=67e827ce7380f726747375b7d793e4d2">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chat-0-c9ef9.appspot.com/o/Imagen2.png?alt=media&token=ebe567fb-4b48-417a-8975-af2240adea23" alt="Descripción de la imagen 2">
-                <div class="text-overlay">¡No te lo pierdas! 😍</div>
-            </a>
+        <nav id="main-nav">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Películas</a></li>
+                <li><a href="#">Series</a></li>
+                <li><a href="#">Novedades</a></li>
+                <li><a href="#">Top 10</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar...">
         </div>
-        
-        <div class="grid-item">
-            <a href="https://nearlynightingalebust.com/g2etat822?key=67e827ce7380f726747375b7d793e4d2">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chat-0-c9ef9.appspot.com/o/Imagen3.png?alt=media&token=585e8079-72fb-49df-8c12-7a95c6c7013a" alt="Descripción de la imagen 3">
-                <div class="text-overlay">Haz clic para ver todo...</div>
-            </a>
-        </div>
-        
-        <div class="grid-item">
-            <a href="https://nearlynightingalebust.com/g2etat822?key=67e827ce7380f726747375b7d793e4d2">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chat-0-c9ef9.appspot.com/o/Imagen4.png?alt=media&token=42e42641-55ae-4ff7-8ef7-3d2ac20d61d3" alt="Descripción de la imagen 4">
-                <div class="text-overlay">Lo mejor está aquí... 😉</div>
-            </a>
-        </div>
-        
-        <div class="grid-item">
-            <a href="https://nearlynightingalebust.com/g2etat822?key=67e827ce7380f726747375b7d793e4d2">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chat-0-c9ef9.appspot.com/o/Imagen7.png?alt=media&token=8f952103-3c58-443f-8d8e-6a7a8a05d10b" alt="Descripción de la imagen 5">
-                <div class="text-overlay">Sorpréndete con esto... 👀</div>
-            </a>
-        </div>
-        
-        <div class="grid-item">
-            <a href="https://nearlynightingalebust.com/g2etat822?key=67e827ce7380f726747375b7d793e4d2">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chat-0-c9ef9.appspot.com/o/Imagen6.png?alt=media&token=2801d825-a375-4152-b749-e287b2591c1b" alt="Descripción de la imagen 6">
-                <div class="text-overlay">Accede ahora y disfruta... 💋</div>
-            </a>
-        </div>
-        
-        <div class="grid-item">
-            <a href="https://nearlynightingalebust.com/g2etat822?key=67e827ce7380f726747375b7d793e4d2">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chat-0-c9ef9.appspot.com/o/Imagen8.png?alt=media&token=44b970f9-5708-437f-8799-bdb059a87155" alt="Descripción de la imagen 6">
-                <div class="text-overlay">¡Haz clic y disfruta! 🔥</div>
-            </a>
-        </div>
-        
-        <div class="grid-item">
-            <a href="https://nearlynightingalebust.com/g2etat822?key=67e827ce7380f726747375b7d793e4d2">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chat-0-c9ef9.appspot.com/o/imagen9.png?alt=media&token=c356e424-be8f-4e26-a00b-fc41c5a54542" alt="Descripción de la imagen 6">
-                <div class="text-overlay">Dale clic para más diversión...</div>
-            </a>
-        </div>
-        
-        <div class="grid-item">
-            <a href="https://nearlynightingalebust.com/g2etat822?key=67e827ce7380f726747375b7d793e4d2">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chat-0-c9ef9.appspot.com/o/imagen10.png?alt=media&token=124e2d36-474e-4b70-ac78-564451c28c98" alt="Descripción de la imagen 6">
-                <div class="text-overlay">Explora lo que sigue... 😏</div>
-            </a>
-        </div>
-        
-        <div class="grid-item">
-            <a href="https://nearlynightingalebust.com/g2etat822?key=67e827ce7380f726747375b7d793e4d2">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chat-0-c9ef9.appspot.com/o/imagen11.png?alt=media&token=dee6c4a8-2150-41d0-a7b8-ffc54aff6e6c" alt="Descripción de la imagen 6">
-                <div class="text-overlay">Haz clic y descubre... 😈</div>
-            </a>
-        </div>
-        
-        <div class="grid-item">
-            <a href="https://nearlynightingalebust.com/g2etat822?key=67e827ce7380f726747375b7d793e4d2">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chat-0-c9ef9.appspot.com/o/imagen12.png?alt=media&token=43020bc1-7e1e-4a0c-b1c4-910b377219d6" alt="Descripción de la imagen 6">
-                <div class="text-overlay">¡Solo para ti! Haz clic... 🔥</div>
-            </a>
-        </div>
-        
-        <div class="grid-item">
-            <a href="https://nearlynightingalebust.com/g2etat822?key=67e827ce7380f726747375b7d793e4d2">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chat-0-c9ef9.appspot.com/o/imagen16.png?alt=media&token=968d4478-aeb7-483f-915a-a5e37eff88fd" alt="Descripción de la imagen 6">
-                <div class="text-overlay">Haz clic y disfruta al máximo... 😘</div>
-            </a>
-        </div>
-        
-        <div class="grid-item">
-            <a href="https://nearlynightingalebust.com/g2etat822?key=67e827ce7380f726747375b7d793e4d2">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chat-0-c9ef9.appspot.com/o/imagen17.png?alt=media&token=84f5b15e-8d36-4f05-9872-578e7cfc84e7" alt="Descripción de la imagen 6">
-                <div class="text-overlay">Prepárate para más... 💥</div>
-            </a>
-        </div>
+    </header>
 
-        <div class="grid-item">
-            <a href="https://nearlynightingalebust.com/g2etat822?key=67e827ce7380f726747375b7d793e4d2">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chat-0-c9ef9.appspot.com/o/mia.png?alt=media&token=0239c667-8cc3-4c4b-bd5b-765e5a2e7c24" alt="Descripción de la imagen 6">
-                <div class="text-overlay">Prepárate para más... 💥</div>
-            </a>
-        </div>
+    <!-- Sección de Películas Populares -->
+    <section class="populares">
+        <h2>Ver Películas Populares online Gratis</h2>
+        <div class="peliculas">
+            <div class="pelicula">
+                <img src="https://media.glamour.es/photos/616fb8400ff0e632eaeb6272/master/w_1600%2Cc_limit/549521.jpg" alt="Película 1">
+                <h3>50 Sombras de Grey</h3>
+                <p></p>
+                <a href="#" class="ver-mas">Ver Pelicula</a>
+            </div>
+            <div class="pelicula">
+                <img src="https://i.etsystatic.com/35681979/r/il/c20a99/3872464924/il_fullxfull.3872464924_ed1l.jpg" alt="Película 2">
+                <h3>Titanic</h3>
+                <p></p>
+                <a href="#" class="ver-mas">Ver Pelicula</a>
+            </div>
+            <!-- Agregar más películas -->
 
-        <div class="grid-item">
-            <a href="https://nearlynightingalebust.com/g2etat822?key=67e827ce7380f726747375b7d793e4d2">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chat-0-c9ef9.appspot.com/o/blanca.png?alt=media&token=e7adc82e-cc03-4246-a349-47542699c12d" alt="Descripción de la imagen 6">
-                <div class="text-overlay">Prepárate para más... 💥</div>
-            </a>
-        </div>
-
-        <div class="grid-item">
-            <a href="https://nearlynightingalebust.com/g2etat822?key=67e827ce7380f726747375b7d793e4d2">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chat-0-c9ef9.appspot.com/o/laurita.png?alt=media&token=2fd883b3-7b68-4870-8fd1-fb4896cfdf3a" alt="Descripción de la imagen 6">
-                <div class="text-overlay">Clic para Descargar... 💥</div>
-            </a>
-        </div>
-        
-        
+            <div class="pelicula">
+                <img src="https://pics.filmaffinity.com/dune_part_two-802143593-large.jpg" alt="Película 2">
+                <h3>Dune: Parte Dos</h3>
+                <p></p>
+                <a href="#" class="ver-mas">Ver Pelicula</a>
+            </div>
 
 
 
-    </div>
+
+
+        </div>
+    </section>
+
+    <!-- Sección de Géneros -->
+    <section class="generos">
+        <h2>Explorar Géneros</h2>
+        <div class="genero-lista">
+            <a href="#" class="genero">Acción</a>
+            <a href="#" class="genero">Comedia</a>
+            <a href="#" class="genero">Drama</a>
+            <!-- Agregar más géneros -->
+        </div>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="#">Política de Privacidad</a>
+                <a href="#">Términos de Servicio</a>
+                <a href="#">Contacto</a>
+            </div>
+            <div class="social-media">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </div>
+        </div>
+        <p>&copy; 2024 MiCine. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        function toggleMenu() {
+            const nav = document.getElementById('main-nav');
+            nav.classList.toggle('active');
+        }
+    </script>
+
+
+    <script type='text/javascript' src='//nearlynightingalebust.com/1f/3a/1e/1f3a1ea5c82585d1cd19e66108b6e175.js'></script>
 </body>
 </html>
