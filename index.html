@@ -1,240 +1,68 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chicas Hermosas</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            background-color: #f0f0f0;
-        }
-
-        h1 {
-            text-align: center;
-            margin: 20px 0;
-            font-size: 2em;
-            line-height: 1.2;
-            padding: 0 20px;
-            word-wrap: break-word;
-        }
-
-        .grid-container {
-            display: grid;
-            gap: 10px;
-            padding: 10px;
-            width: 90%;
-            max-width: 1200px;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        }
-
-        .grid-item {
-            position: relative;
-            overflow: hidden;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
-
-        .grid-item img {
-            width: 100%;
-            height: auto;
-            display: block;
-            transition: transform 0.5s ease;
-        }
-
-        .grid-item:hover img {
-            transform: scale(1.1);
-        }
-
-        .grid-item .text-overlay {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: rgba(0, 0, 0, 0.7);
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-            font-size: 1.2em;
-            opacity: 0;
-            transition: opacity 0.5s ease;
-        }
-
-        .grid-item:hover .text-overlay {
-            opacity: 1;
-        }
-
-        .grid-item .text-overlay a {
-            color: #ffcc00;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        .grid-item .text-overlay a:hover {
-            text-decoration: underline;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página con Botones Responsivos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 20px;
+      background-color: #f4f4f9;
+    }
+    h1 {
+      color: #333;
+      margin-bottom: 20px;
+    }
+    .button-container {
+      display: flex;
+      flex-wrap: wrap; /* Permite que los botones se ajusten en varias filas */
+      justify-content: center; /* Centra los botones horizontalmente */
+      gap: 15px; /* Espacio entre los botones */
+    }
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 15px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s ease;
+      width: 100%; /* Por defecto ocupa todo el ancho */
+      max-width: 200px; /* Máximo ancho del botón */
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+    /* Diseño responsivo */
+    @media (max-width: 768px) {
+      button {
+        font-size: 14px; /* Reduce el tamaño del texto en pantallas más pequeñas */
+        padding: 12px 15px;
+      }
+    }
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 18px; /* Reduce el tamaño del título */
+      }
+      button {
+        font-size: 12px; /* Ajuste adicional en dispositivos pequeños */
+        padding: 10px 12px;
+      }
+    }
+  </style>
 </head>
 <body>
-    <h3> Belleza y Deseo: Videos Exclusivos🔥</h3>
-    <div class="grid-container">
-        <div class="grid-item">
-            <a href="https://nearlynightingalebust.com/g2etat822?key=67e827ce7380f726747375b7d793e4d2">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chat-0-c9ef9.appspot.com/o/esperanza.png?alt=media&token=c5ed3c21-ff3c-46e2-a131-b81b43b4c6b5" alt="Descripción de la imagen 1">
-                <div class="text-overlay">Descubre más... 🔥</div>
-            </a>
-        </div>
-        <div class="grid-item">
-            <a href="https://nearlynightingalebust.com/g2etat822?key=67e827ce7380f726747375b7d793e4d2">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chat-0-c9ef9.appspot.com/o/ballina.png?alt=media&token=6fd8a30a-f339-4593-afc4-1a93f6b49105" alt="Descripción de la imagen 2">
-                <div class="text-overlay">¡No te lo pierdas! 😍</div>
-            </a>
-        </div>
-        
-        <div class="grid-item">
-            <a href="https://nearlynightingalebust.com/g2etat822?key=67e827ce7380f726747375b7d793e4d2">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chat-0-c9ef9.appspot.com/o/imagen33.png?alt=media&token=3936bf00-81a9-424c-b15b-5245b08392ca" alt="Descripción de la imagen 3">
-                <div class="text-overlay">Haz clic para ver todo...</div>
-            </a>
-        </div>
-        
-        <div class="grid-item">
-            <a href="https://nearlynightingalebust.com/g2etat822?key=67e827ce7380f726747375b7d793e4d2">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chat-0-c9ef9.appspot.com/o/imagen34.png?alt=media&token=8ee328c5-7a63-47de-acbe-f5ad46be4d40" alt="Descripción de la imagen 4">
-                <div class="text-overlay">Lo mejor está aquí... 😉</div>
-            </a>
-        </div>
-        
-        <div class="grid-item">
-            <a href="https://nearlynightingalebust.com/g2etat822?key=67e827ce7380f726747375b7d793e4d2">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chat-0-c9ef9.appspot.com/o/imagen35.png?alt=media&token=4da4a889-d725-4057-8611-6acc18cca38c" alt="Descripción de la imagen 5">
-                <div class="text-overlay">Sorpréndete con esto... 👀</div>
-            </a>
-        </div>
-        
-        <div class="grid-item">
-            <a href="https://nearlynightingalebust.com/g2etat822?key=67e827ce7380f726747375b7d793e4d2">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chat-0-c9ef9.appspot.com/o/imagen31.png?alt=media&token=2944aa75-0cbb-415d-86c8-18c63fcd9038" alt="Descripción de la imagen 6">
-                <div class="text-overlay">Accede ahora y disfruta... 💋</div>
-            </a>
-        </div>
-        
-        <div class="grid-item">
-            <a href="https://nearlynightingalebust.com/g2etat822?key=67e827ce7380f726747375b7d793e4d2">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chat-0-c9ef9.appspot.com/o/imagen32.png?alt=media&token=9434e67c-8ad0-4836-9df9-6b6143fcd010" alt="Descripción de la imagen 6">
-                <div class="text-overlay">¡Haz clic y disfruta! 🔥</div>
-            </a>
-        </div>
-        
-        <div class="grid-item">
-            <a href="https://nearlynightingalebust.com/g2etat822?key=67e827ce7380f726747375b7d793e4d2">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chat-0-c9ef9.appspot.com/o/imagen38.png?alt=media&token=5681d881-73c4-481d-952d-c417dc7c2062" alt="Descripción de la imagen 6">
-                <div class="text-overlay">Dale clic para más diversión...</div>
-            </a>
-        </div>
-        
-        <div class="grid-item">
-            <a href="https://nearlynightingalebust.com/g2etat822?key=67e827ce7380f726747375b7d793e4d2">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chat-0-c9ef9.appspot.com/o/imagen39.png?alt=media&token=9619d2f2-261b-4368-af4e-25fa2a5b77ba" alt="Descripción de la imagen 6">
-                <div class="text-overlay">Explora lo que sigue... 😏</div>
-            </a>
-        </div>
-        
-        <div class="grid-item">
-            <a href="https://nearlynightingalebust.com/g2etat822?key=67e827ce7380f726747375b7d793e4d2">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chat-0-c9ef9.appspot.com/o/imagen40.png?alt=media&token=8f7c15e9-ee08-4ce1-8dae-8b8569f9c3b5" alt="Descripción de la imagen 6">
-                <div class="text-overlay">Haz clic y descubre... 😈</div>
-            </a>
-        </div>
-        
-        <div class="grid-item">
-            <a href="https://nearlynightingalebust.com/g2etat822?key=67e827ce7380f726747375b7d793e4d2">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chat-0-c9ef9.appspot.com/o/imagen41.png?alt=media&token=c4b83d10-2dd0-4501-bb7b-24bfde43018c" alt="Descripción de la imagen 6">
-                <div class="text-overlay">¡Solo para ti! Haz clic... 🔥</div>
-            </a>
-        </div>
-        
-        <div class="grid-item">
-            <a href="https://nearlynightingalebust.com/g2etat822?key=67e827ce7380f726747375b7d793e4d2">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chat-0-c9ef9.appspot.com/o/imagen42.png?alt=media&token=8d25ff4c-a815-4b47-b53e-99ec79544b6c" alt="Descripción de la imagen 6">
-                <div class="text-overlay">Haz clic y disfruta al máximo... 😘</div>
-            </a>
-        </div>
-        
-        <div class="grid-item">
-            <a href="https://nearlynightingalebust.com/g2etat822?key=67e827ce7380f726747375b7d793e4d2">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chat-0-c9ef9.appspot.com/o/imagen43.png?alt=media&token=73e202b4-681b-41d9-8c61-f2e2773a8499" alt="Descripción de la imagen 6">
-                <div class="text-overlay">Prepárate para más... 💥</div>
-            </a>
-        </div>
-
-        <div class="grid-item">
-            <a href="https://nearlynightingalebust.com/g2etat822?key=67e827ce7380f726747375b7d793e4d2">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chat-0-c9ef9.appspot.com/o/imagen44.png?alt=media&token=dfa63459-9f31-4a4f-b159-e2caa6ca0d5e" alt="Descripción de la imagen 6">
-                <div class="text-overlay">Prepárate para más... 💥</div>
-            </a>
-        </div>
-
-        <div class="grid-item">
-            <a href="https://nearlynightingalebust.com/g2etat822?key=67e827ce7380f726747375b7d793e4d2">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chat-0-c9ef9.appspot.com/o/imagen45.png?alt=media&token=bfbccd71-21d0-44bd-bd06-2cf18265f609" alt="Descripción de la imagen 6">
-                <div class="text-overlay">Prepárate para más... 💥</div>
-            </a>
-        </div>
-
-        <div class="grid-item">
-            <a href="https://nearlynightingalebust.com/g2etat822?key=67e827ce7380f726747375b7d793e4d2">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chat-0-c9ef9.appspot.com/o/imagen46.png?alt=media&token=2b32aa00-c601-432e-890a-b7278978a2e9" alt="Descripción de la imagen 6">
-                <div class="text-overlay">Descubre más... 🔥</div>
-            </a>
-        </div>
-
-        <div class="grid-item">
-            <a href="https://nearlynightingalebust.com/g2etat822?key=67e827ce7380f726747375b7d793e4d2">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chat-0-c9ef9.appspot.com/o/imagen47.png?alt=media&token=da7002f8-c870-461e-b6a7-b5c55b56253a" alt="Descripción de la imagen 6">
-                <div class="text-overlay">Clic para Descargar... 💥</div>
-            </a>
-        </div>
-
-        <div class="grid-item">
-            <a href="https://nearlynightingalebust.com/g2etat822?key=67e827ce7380f726747375b7d793e4d2">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chat-0-c9ef9.appspot.com/o/imagen48.png?alt=media&token=63e39f0e-0f47-4229-bc8f-99862e7228c5" alt="Descripción de la imagen 6">
-                <div class="text-overlay">Descubre más... 🔥</div>
-            </a>
-        </div>
-
-
-        <div class="grid-item">
-            <a href="https://nearlynightingalebust.com/g2etat822?key=67e827ce7380f726747375b7d793e4d2">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chat-0-c9ef9.appspot.com/o/imagen49.png?alt=media&token=2e91d738-a2d0-4d85-891a-d7eb59593b03" alt="Descripción de la imagen 6">
-                <div class="text-overlay">Descubre más... 🔥</div>
-            </a>
-        </div>
-
-
-        <div class="grid-item">
-            <a href="https://nearlynightingalebust.com/g2etat822?key=67e827ce7380f726747375b7d793e4d2">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chat-0-c9ef9.appspot.com/o/imagen50.png?alt=media&token=7063ba57-6a44-4a89-a5c1-643bbf9a8e12" alt="Descripción de la imagen 6">
-                <div class="text-overlay">Descubre más... 🔥</div>
-            </a>
-        </div>
-
-        <div class="grid-item">
-            <a href="https://nearlynightingalebust.com/g2etat822?key=67e827ce7380f726747375b7d793e4d2">
-                <img src="https://firebasestorage.googleapis.com/v0/b/chat-0-c9ef9.appspot.com/o/imagen51.png?alt=media&token=63269bf7-8ecb-4847-8682-d04b5dcfb1da" alt="Descripción de la imagen 6">
-                <div class="text-overlay">Descubre más... 🔥</div>
-            </a>
-        </div>
-        
-        
-
-
-
-    </div>
+  <h1>Selecciona un botón</h1>
+  <div class="button-container">
+    <!-- Botones con enlaces -->
+    <button onclick="window.location.href='Ana Rodríguez videos.html'">boton 1</button>
+    <button onclick="window.location.href='https://www.facebook.com'">Ir a Facebook</button>
+    <button onclick="window.location.href='https://www.youtube.com'">Ir a YouTube</button>
+    <button onclick="window.location.href='https://www.twitter.com'">Ir a Twitter</button>
+  </div>
 </body>
 </html>
